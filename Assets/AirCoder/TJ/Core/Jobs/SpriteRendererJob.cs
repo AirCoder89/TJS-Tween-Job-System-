@@ -21,17 +21,17 @@ namespace AirCoder.TJ.Core.Jobs
 
         public override ITweenJob TweenTo<T>(T targetInstance, JObType job, params object[] parameters)
         {
-            CurrentJobType = job;
+            currentJobType = job;
             _spriteRenderer = targetInstance as SpriteRenderer;
-            if(SelectedEase == null) SelectedEase = Easing.GetEase(Easing.EaseType.Linear);
+            if(selectedEase == null) selectedEase = Easing.GetEase(EaseType.Linear);
             
-            switch (CurrentJobType)
+            switch (currentJobType)
             {
-                case JObType.Color:    JobAction = () => SetupTweenColor((Color) parameters[0]);     break;
-                case JObType.Opacity:  JobAction = () => SetupTweenOpacity((float) parameters[0]);   break;
+                case JObType.Color:    jobAction = () => SetupTweenColor((Color) parameters[0]);     break;
+                case JObType.Opacity:  jobAction = () => SetupTweenOpacity((float) parameters[0]);   break;
                 default: ThrowInvalidJobType();                                                      break;
             }
-            Duration = (float) parameters[1];
+            duration = (float) parameters[1];
             return this;
         }
 
@@ -39,12 +39,12 @@ namespace AirCoder.TJ.Core.Jobs
         {
             if(!IsPlaying) return;
             if(_spriteRenderer == null) ThrowMissingReferenceException(_spriteRenderer);
-            CurrentTime += deltaTime;
-            this.normalizedTime = CurrentTime / Duration;
-            if (CurrentTime >= Duration) CurrentTime = Duration;
+            currentTime += deltaTime;
+            this.normalizedTime = currentTime / duration;
+            if (currentTime >= duration) currentTime = duration;
 
             
-            switch (CurrentJobType)
+            switch (currentJobType)
             {
                 case JObType.Color:   InterpolateColor();    break;
                 case JObType.Opacity: InterpolateOpacity();  break;
@@ -56,6 +56,16 @@ namespace AirCoder.TJ.Core.Jobs
         }
 
         #region Setup
+
+        public override void SetupRewind()
+            {
+                switch (currentJobType)
+                {
+                    case JObType.Color:    jobAction = () => SetupTweenColor(_startColor);     break;
+                    case JObType.Opacity:  jobAction = () => SetupTweenOpacity(_startFloat);   break;
+                    default: ThrowInvalidJobType();                                            break;
+                }
+            }
             private void SetupTweenOpacity(float opacityAmount)
             {
                 _startFloat = _spriteRenderer.color.a;
@@ -73,12 +83,12 @@ namespace AirCoder.TJ.Core.Jobs
 
             private void InterpolateColor()
             {
-                var color = TweenColor(_startColor, _targetColor, CurrentTime, Duration);
+                var color = TweenColor(_startColor, _targetColor, currentTime, duration);
                 _spriteRenderer.color = color;
             }
             private void InterpolateOpacity()
             {
-                var alpha = InterpolateFloat(_startFloat, _targetFloat, CurrentTime, Duration);
+                var alpha = InterpolateFloat(_startFloat, _targetFloat, currentTime, duration);
                 _spriteRenderer.SetAlpha(alpha);
             }
 

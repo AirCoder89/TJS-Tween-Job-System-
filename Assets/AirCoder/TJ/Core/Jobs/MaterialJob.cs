@@ -22,21 +22,22 @@ namespace AirCoder.TJ.Core.Jobs
         }
 
         //-convention parameters : 0[targetValue] / 1[propertyName] / 2[Duration]
+
         public override ITweenJob TweenTo<T>(T targetInstance, JObType job, params object[] parameters)
         {
-            CurrentJobType = job;
+            currentJobType = job;
             _material = targetInstance as Material;
-            if(SelectedEase == null) SelectedEase = Easing.GetEase(Easing.EaseType.Linear);
+            if(selectedEase == null) selectedEase = Easing.GetEase(EaseType.Linear);
             
             _propertyName = (string) parameters[1]; //assign property name
-            switch (CurrentJobType)
+            switch (currentJobType)
             {
-                case JObType.Offset:   JobAction = () => SetupTweenOffset((Vector2) parameters[0]); break;
-                case JObType.Color:    JobAction = () => SetupTweenColor((Color) parameters[0]);    break;
-                case JObType.Opacity:  JobAction = () => SetupTweenOpacity((float) parameters[0]);  break;
+                case JObType.Offset:   jobAction = () => SetupTweenOffset((Vector2) parameters[0]); break;
+                case JObType.Color:    jobAction = () => SetupTweenColor((Color) parameters[0]);    break;
+                case JObType.Opacity:  jobAction = () => SetupTweenOpacity((float) parameters[0]);  break;
                 default: ThrowInvalidJobType();                                                     break;
             }
-            Duration = (float) parameters[2];
+            duration = (float) parameters[2];
             return this;
         }
 
@@ -44,12 +45,12 @@ namespace AirCoder.TJ.Core.Jobs
         {
             if(!IsPlaying) return;
             if(_material == null) ThrowMissingReferenceException(_material);
-            CurrentTime += deltaTime;
-            this.normalizedTime = CurrentTime / Duration;
-            if (CurrentTime >= Duration) CurrentTime = Duration;
+            currentTime += deltaTime;
+            this.normalizedTime = currentTime / duration;
+            if (currentTime >= duration) currentTime = duration;
 
             
-            switch (CurrentJobType)
+            switch (currentJobType)
             {
                 case JObType.Offset:  InterpolateOffset();  break;
                 case JObType.Color:   InterpolateColor();   break;
@@ -62,6 +63,17 @@ namespace AirCoder.TJ.Core.Jobs
         }
         
         #region Setup
+
+        public override void SetupRewind()
+            {
+                switch (currentJobType)
+                {
+                    case JObType.Offset:   jobAction = () => SetupTweenOffset(_startVector3); break;
+                    case JObType.Color:    jobAction = () => SetupTweenColor(_startColor);    break;
+                    case JObType.Opacity:  jobAction = () => SetupTweenOpacity(_startFloat);  break;
+                    default: ThrowInvalidJobType();                                           break;
+                }
+            }
             private void SetupTweenOpacity(float opacityAmount)
             {
                 _startFloat = _material.GetColor(_propertyName).a;
@@ -84,19 +96,19 @@ namespace AirCoder.TJ.Core.Jobs
         #region Interpolation
             private void InterpolateOffset()
             {
-                var offset = TweenVector3(_startVector3, _targetVector3, CurrentTime, Duration);
+                var offset = TweenVector3(_startVector3, _targetVector3, currentTime, duration);
                 _material.SetTextureOffset(_propertyName, (Vector2)offset);
             }
                 
             private void InterpolateColor()
             {
-                var color = TweenColor(_startColor, _targetColor, CurrentTime, Duration);
+                var color = TweenColor(_startColor, _targetColor, currentTime, duration);
                 _material.SetColor(_propertyName, color);
             }
             
             private void InterpolateOpacity()
             {
-                var alpha = InterpolateFloat(_startFloat, _targetFloat, CurrentTime, Duration);
+                var alpha = InterpolateFloat(_startFloat, _targetFloat, currentTime, duration);
                 var finalColor = _material.GetColor(_propertyName);
                 finalColor.a = alpha;
                 _material.SetColor(_propertyName, finalColor);

@@ -31,7 +31,7 @@ namespace AirCoder.TJ.Core.Sequences
         //chained events subscribe
         ITweenSequence SetLoop(uint nbLoop);
         ITweenSequence SetDuration(float duration);
-        ITweenSequence SetEase(Easing.EaseType easeType);
+        ITweenSequence SetEase(EaseType easeType);
         ITweenSequence OnKill(Action callback);
         ITweenSequence OnPlay(Action callback);
         ITweenSequence OnPause(Action callback);

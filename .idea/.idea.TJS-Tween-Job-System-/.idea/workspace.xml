@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bdd5efc-b35a-4673-bdcc-8a0ee28413b6" name="Default Changelist" comment="" />
+    <list default="true" id="3bdd5efc-b35a-4673-bdcc-8a0ee28413b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TJS-Tween-Job-System-/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TJS-Tween-Job-System-/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TJS-Tween-Job-System-/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TJS-Tween-Job-System-/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/Examples/Scenes/Sample1 - UI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/Examples/Scenes/Sample1 - UI.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/TestUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/TestUi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/BaseMonoBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/BaseMonoBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/BaseMonoBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/BaseMonoBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Ease/Easing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Ease/Easing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/CanvasGroupExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/CanvasGroupExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/RectTransformExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/RectTransformExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/TransformExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/TransformExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/GraphicsJob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/GraphicsJob.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/ITweenJob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/ITweenJob.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/MaterialJob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/MaterialJob.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/RectTransformJob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/RectTransformJob.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/SpriteRendererJob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/SpriteRendererJob.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/TweenJobBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/TweenJobBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/New Tween Sequence.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/New Tween Sequence.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Sequences/ITweenSequence.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Sequences/ITweenSequence.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Sequences/SequenceJob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Sequences/SequenceJob.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Singleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Singleton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Singleton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TJSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TJSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TweenSequence.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TweenSequence.cs.meta" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,100 +39,131 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TJSystem.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/TestUi.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="100" column="8" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+            <state relative-caret-position="304">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
-                <marker date="1615810152819" expanded="true" signature="6:148" ph="..." />
-                <marker date="1615810152819" expanded="true" signature="176:4287" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="207:259" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="309:4285" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="582:615" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="645:939" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="736:841" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="970:1078" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="1114:1232" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="1267:1379" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="1423:1945" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="1504:1729" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="1580:1715" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="2019:2122" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="2224:2385" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="2444:2988" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="3052:3206" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="3292:3818" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="3889:4279" ph="{...}" />
-                <marker date="1615810152819" expanded="true" signature="4031:4158" ph="{...}" />
+                <marker date="1615824186641" expanded="true" signature="6:157" ph="..." />
+                <marker date="1615824186641" expanded="true" signature="194:922" ph="{...}" />
+                <marker date="1615824186641" expanded="true" signature="236:920" ph="{...}" />
+                <marker date="1615824186641" expanded="true" signature="601:634" ph="{...}" />
+                <marker date="1615824186641" expanded="true" signature="728:824" ph="{...}" />
+                <marker date="1615824186641" expanded="true" signature="854:914" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Singleton.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/Waypoints.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <marker date="1615810737549" expanded="true" signature="46:529" ph="{...}" />
-                <marker date="1615810737549" expanded="true" signature="106:527" ph="{...}" />
-                <marker date="1615810737549" expanded="true" signature="182:521" ph="{...}" />
-                <marker date="1615810737549" expanded="true" signature="208:511" ph="{...}" />
-                <marker date="1615810737549" expanded="true" signature="261:462" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TweenSequence.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <marker date="1615810152909" expanded="false" signature="6:61" ph="..." />
-                <marker date="1615810152909" expanded="true" signature="89:456" ph="{...}" />
-                <marker date="1615810152909" expanded="true" signature="156:449" ph="{...}" />
-                <marker date="1615810152909" expanded="true" signature="305:443" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobPool.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding>
-                <marker date="1615810152879" expanded="true" signature="6:110" ph="..." />
-                <marker date="1615810152879" expanded="true" signature="138:2065" ph="{...}" />
-                <marker date="1615810152879" expanded="true" signature="172:2063" ph="{...}" />
-                <marker date="1615810152879" expanded="true" signature="313:1302" ph="Job Pool" />
-                <marker date="1615810152879" expanded="true" signature="379:542" ph="{...}" />
-                <marker date="1615810152879" expanded="true" signature="604:1014" ph="{...}" />
-                <marker date="1615810152879" expanded="true" signature="758:879" ph="{...}" />
-                <marker date="1615810152879" expanded="true" signature="1067:1283" ph="{...}" />
-                <marker date="1615810152879" expanded="true" signature="1320:2057" ph="Sequence Pool" />
-                <marker date="1615810152879" expanded="true" signature="1423:1680" ph="{...}" />
-                <marker date="1615810152879" expanded="true" signature="1761:1925" ph="{...}" />
+                <marker date="1615827500451" expanded="true" signature="6:137" ph="..." />
+                <marker date="1615827500451" expanded="true" signature="174:1707" ph="{...}" />
+                <marker date="1615827500451" expanded="true" signature="219:1705" ph="{...}" />
+                <marker date="1615827500451" expanded="true" signature="467:562" ph="{...}" />
+                <marker date="1615827500451" expanded="true" signature="619:753" ph="{...}" />
+                <marker date="1615827500451" expanded="true" signature="812:901" ph="{...}" />
+                <marker date="1615827500451" expanded="true" signature="941:1485" ph="{...}" />
+                <marker date="1615827500451" expanded="true" signature="1058:1441" ph="{...}" />
+                <marker date="1615827500451" expanded="true" signature="1281:1397" ph="{...}" />
+                <marker date="1615827500451" expanded="true" signature="1532:1698" ph="{...}" />
+                <marker date="1615827500451" expanded="true" signature="1564:1643" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/TestUi.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/TransformJob.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="-1883">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
-                <marker date="1615811133189" expanded="true" signature="6:82" ph="..." />
-                <marker date="1615811133189" expanded="true" signature="119:833" ph="{...}" />
-                <marker date="1615811133189" expanded="true" signature="161:831" ph="{...}" />
-                <marker date="1615811133189" expanded="true" signature="440:575" ph="{...}" />
-                <marker date="1615811133189" expanded="true" signature="645:825" ph="{...}" />
+                <marker date="1615827565471" expanded="false" signature="6:47" ph="..." />
+                <marker date="1615827565471" expanded="true" signature="80:6070" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="127:6068" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="300:389" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="565:1651" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="797:1557" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="1703:2707" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="2025:2575" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="2734:4799" ph="Setup" />
+                <marker date="1615827565471" expanded="true" signature="2795:3613" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="2849:3599" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="3690:3836" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="3922:4073" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="4152:4297" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="4378:4527" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="4613:4767" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="4817:6053" ph="Interpolation" />
+                <marker date="1615827565471" expanded="true" signature="4885:5055" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="5120:5295" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="5356:5534" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="5598:5781" ph="{...}" />
+                <marker date="1615827565471" expanded="true" signature="5846:6034" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/TransformExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <marker date="1615820861881" expanded="false" signature="6:47" ph="..." />
+                <marker date="1615820861881" expanded="true" signature="86:1219" ph="{...}" />
+                <marker date="1615820861881" expanded="true" signature="132:1217" ph="{...}" />
+                <marker date="1615820861881" expanded="true" signature="242:339" ph="{...}" />
+                <marker date="1615820861881" expanded="true" signature="449:552" ph="{...}" />
+                <marker date="1615820861881" expanded="true" signature="662:765" ph="{...}" />
+                <marker date="1615820861881" expanded="true" signature="880:988" ph="{...}" />
+                <marker date="1615820861881" expanded="true" signature="1103:1211" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TJSystem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <folding>
+                <marker date="1615827473761" expanded="false" signature="6:174" ph="..." />
+                <marker date="1615827473761" expanded="true" signature="202:5608" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="233:285" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="335:5606" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="724:1014" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="750:1004" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="803:956" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="1075:1108" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="1138:1426" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="1180:1285" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="1462:1571" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="1498:1561" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="1610:1718" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="1754:1872" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="1907:2019" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="2063:2585" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="2144:2369" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="2220:2355" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="2659:2762" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="2864:3087" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="3138:3682" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="3746:3900" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="3986:4512" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="4583:4973" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="4725:4852" ph="{...}" />
+                <marker date="1615827473761" expanded="false" signature="4983:5591" ph="Debugging" />
+                <marker date="1615827473761" expanded="true" signature="5049:5191" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="5242:5389" ph="{...}" />
+                <marker date="1615827473761" expanded="true" signature="5433:5572" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -113,27 +172,96 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobFactory.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="440">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <marker date="1615810841379" expanded="false" signature="6:81" ph="..." />
-                <marker date="1615810841379" expanded="true" signature="109:959" ph="{...}" />
-                <marker date="1615810841379" expanded="true" signature="146:957" ph="{...}" />
-                <marker date="1615810841379" expanded="true" signature="199:787" ph="{...}" />
-                <marker date="1615810841379" expanded="true" signature="879:951" ph="{...}" />
+                <marker date="1615824636973" expanded="false" signature="6:81" ph="..." />
+                <marker date="1615824636973" expanded="true" signature="109:1088" ph="{...}" />
+                <marker date="1615824636973" expanded="true" signature="146:1086" ph="{...}" />
+                <marker date="1615824636973" expanded="true" signature="199:916" ph="{...}" />
+                <marker date="1615824636973" expanded="true" signature="1008:1080" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/BaseMonoBehaviour.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/RectTransformJob.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="220">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
-                <marker date="1615810152960" expanded="true" signature="46:245" ph="{...}" />
-                <marker date="1615810152960" expanded="true" signature="108:243" ph="{...}" />
+                <marker date="1615824151721" expanded="false" signature="6:47" ph="..." />
+                <marker date="1615824151721" expanded="true" signature="80:5068" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="131:5066" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="313:406" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="574:1482" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="814:1388" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="1534:2382" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="1877:2250" ph="{...}" />
+                <marker date="1615824151721" expanded="false" signature="2400:4047" ph="Setup" />
+                <marker date="1615824151721" expanded="true" signature="2457:3077" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="2511:3063" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="3154:3312" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="3391:3540" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="3621:3774" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="3851:4002" ph="{...}" />
+                <marker date="1615824151721" expanded="false" signature="4065:5060" ph="Interpolation" />
+                <marker date="1615824151721" expanded="true" signature="4133:4315" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="4376:4557" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="4621:4808" ph="{...}" />
+                <marker date="1615824151721" expanded="true" signature="4864:5041" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Sequences/SequenceJob.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-251">
+              <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+              <folding>
+                <marker date="1615824151521" expanded="false" signature="6:124" ph="..." />
+                <marker date="1615824151521" expanded="true" signature="162:9478" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="193:233" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="282:9476" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="368:458" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="1420:1510" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="1550:1825" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="1594:1760" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="1891:2515" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="2613:2682" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="2727:2889" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="2932:3670" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="3007:3394" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="3736:4530" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="3862:4140" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="3910:4126" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="4566:5048" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="4606:4965" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="5085:5167" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="5203:5284" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="5341:5842" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="5894:6013" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="6049:6573" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="6205:6269" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="6286:6563" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="6383:6513" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="6614:7280" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="6669:6919" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="7099:7270" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="7319:7523" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="7557:7659" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="7726:8475" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="7787:7938" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="8007:8440" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="8541:8743" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="8798:8880" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="8935:9017" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="9081:9164" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="9240:9324" ph="{...}" />
+                <marker date="1615824151521" expanded="true" signature="9383:9469" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -145,30 +273,72 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Ease/Easing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Editor/TweenJobComponentEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/MaterialJob.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/RectTransformJob.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/CanvasGroupJob.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/Waypoints.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TJSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/ITweenJob.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/RectTransformExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/MaterialExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/EaseType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/SpriteRendererExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/GraphicExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/TestUi.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/BaseMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TweenSequence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/FloatExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/CanvasGroupExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/TransformJob.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Sequences/ITweenSequence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/TransformExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/TweenJobBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/BaseMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/GraphicsJob.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Components/TweenJob.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/SpriteRendererJob.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Components/TJComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Sequences/SequenceJob.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/BaseMonoBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TweenConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TweenSequence.cs" />
         <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/BaseMonoBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Components/TJComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Components/TweenScale.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/RectTransformExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/CanvasGroupExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/TransformExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Ease/Easing.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/EaseType.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/GraphicsJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/ITweenJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/MaterialJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/RectTransformJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/SpriteRendererJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/TweenJobBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Sequences/ITweenSequence.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Sequences/SequenceJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Components/TweenJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/CanvasGroupJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Editor/TweenJobComponentEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/TestUi.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TJSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/TestUi.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/Waypoints.cs" />
+        <option value="$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/TransformJob.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1400" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -195,6 +365,19 @@
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="AirCoder" type="1045f7f1:UnityExplorerNode" />
+              <item name="Examples" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="AirCoder" type="1045f7f1:UnityExplorerNode" />
+              <item name="Examples" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="AirCoder" type="1045f7f1:UnityExplorerNode" />
               <item name="TJ" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
@@ -203,6 +386,37 @@
               <item name="AirCoder" type="1045f7f1:UnityExplorerNode" />
               <item name="TJ" type="1045f7f1:UnityExplorerNode" />
               <item name="Core" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="AirCoder" type="1045f7f1:UnityExplorerNode" />
+              <item name="TJ" type="1045f7f1:UnityExplorerNode" />
+              <item name="Core" type="1045f7f1:UnityExplorerNode" />
+              <item name="Extensions" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="AirCoder" type="1045f7f1:UnityExplorerNode" />
+              <item name="TJ" type="1045f7f1:UnityExplorerNode" />
+              <item name="Core" type="1045f7f1:UnityExplorerNode" />
+              <item name="Jobs" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="AirCoder" type="1045f7f1:UnityExplorerNode" />
+              <item name="TJ" type="1045f7f1:UnityExplorerNode" />
+              <item name="Core" type="1045f7f1:UnityExplorerNode" />
+              <item name="Sequences" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="AirCoder" type="1045f7f1:UnityExplorerNode" />
+              <item name="TJ" type="1045f7f1:UnityExplorerNode" />
+              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
           <select />
@@ -259,12 +473,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615809902979</updated>
-      <workItem from="1615809904179" duration="1214000" />
+      <workItem from="1615809904179" duration="10804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1214000" />
+    <option name="totallyTimeSpent" value="10804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,6 +522,36 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.25" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="2" />
+      <window_info anchor="bottom" id="Unit Tests" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="1" />
+      <window_info anchor="right" id="Errors In Solution" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -325,17 +569,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/BaseMonoBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1615810152960" expanded="true" signature="46:245" ph="{...}" />
-            <marker date="1615810152960" expanded="true" signature="108:243" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TweenConfig.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -343,106 +576,815 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobPool.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/BaseMonoBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1615811403529" expanded="true" signature="46:245" ph="{...}" />
+            <marker date="1615811403529" expanded="true" signature="108:243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Components/TJComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding>
-            <marker date="1615810152879" expanded="true" signature="6:110" ph="..." />
-            <marker date="1615810152879" expanded="true" signature="138:2065" ph="{...}" />
-            <marker date="1615810152879" expanded="true" signature="172:2063" ph="{...}" />
-            <marker date="1615810152879" expanded="true" signature="313:1302" ph="Job Pool" />
-            <marker date="1615810152879" expanded="true" signature="379:542" ph="{...}" />
-            <marker date="1615810152879" expanded="true" signature="604:1014" ph="{...}" />
-            <marker date="1615810152879" expanded="true" signature="758:879" ph="{...}" />
-            <marker date="1615810152879" expanded="true" signature="1067:1283" ph="{...}" />
-            <marker date="1615810152879" expanded="true" signature="1320:2057" ph="Sequence Pool" />
-            <marker date="1615810152879" expanded="true" signature="1423:1680" ph="{...}" />
-            <marker date="1615810152879" expanded="true" signature="1761:1925" ph="{...}" />
+            <marker date="1615816800870" expanded="false" signature="6:73" ph="..." />
+            <marker date="1615816800870" expanded="true" signature="112:1834" ph="{...}" />
+            <marker date="1615816800870" expanded="true" signature="185:653" ph="{...}" />
+            <marker date="1615816800870" expanded="true" signature="456:647" ph="{...}" />
+            <marker date="1615816800870" expanded="true" signature="710:1832" ph="{...}" />
+            <marker date="1615816800870" expanded="true" signature="1066:1178" ph="{...}" />
+            <marker date="1615816800870" expanded="true" signature="1209:1266" ph="{...}" />
+            <marker date="1615816800870" expanded="true" signature="1332:1378" ph="{...}" />
+            <marker date="1615816800870" expanded="true" signature="1408:1455" ph="{...}" />
+            <marker date="1615816800870" expanded="true" signature="1483:1528" ph="{...}" />
+            <marker date="1615816800870" expanded="true" signature="1576:1696" ph="{...}" />
+            <marker date="1615816800870" expanded="true" signature="1729:1817" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TweenSequence.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <marker date="1615810152909" expanded="false" signature="6:61" ph="..." />
-            <marker date="1615810152909" expanded="true" signature="89:456" ph="{...}" />
-            <marker date="1615810152909" expanded="true" signature="156:449" ph="{...}" />
-            <marker date="1615810152909" expanded="true" signature="305:443" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Singleton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <marker date="1615810737549" expanded="true" signature="46:529" ph="{...}" />
-            <marker date="1615810737549" expanded="true" signature="106:527" ph="{...}" />
-            <marker date="1615810737549" expanded="true" signature="182:521" ph="{...}" />
-            <marker date="1615810737549" expanded="true" signature="208:511" ph="{...}" />
-            <marker date="1615810737549" expanded="true" signature="261:462" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobFactory.cs">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobPool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <marker date="1615810841379" expanded="false" signature="6:81" ph="..." />
-            <marker date="1615810841379" expanded="true" signature="109:959" ph="{...}" />
-            <marker date="1615810841379" expanded="true" signature="146:957" ph="{...}" />
-            <marker date="1615810841379" expanded="true" signature="199:787" ph="{...}" />
-            <marker date="1615810841379" expanded="true" signature="879:951" ph="{...}" />
+            <marker date="1615816784270" expanded="true" signature="6:110" ph="..." />
+            <marker date="1615816784270" expanded="true" signature="138:2065" ph="{...}" />
+            <marker date="1615816784270" expanded="true" signature="172:2063" ph="{...}" />
+            <marker date="1615816784270" expanded="true" signature="313:1302" ph="Job Pool" />
+            <marker date="1615816784270" expanded="true" signature="379:542" ph="{...}" />
+            <marker date="1615816784270" expanded="true" signature="604:1014" ph="{...}" />
+            <marker date="1615816784270" expanded="true" signature="758:879" ph="{...}" />
+            <marker date="1615816784270" expanded="true" signature="1067:1283" ph="{...}" />
+            <marker date="1615816784270" expanded="true" signature="1320:2057" ph="Sequence Pool" />
+            <marker date="1615816784270" expanded="true" signature="1423:1680" ph="{...}" />
+            <marker date="1615816784270" expanded="true" signature="1761:1925" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TJSystem.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/MaterialExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="100" column="8" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+        <state relative-caret-position="88">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding>
-            <marker date="1615810152819" expanded="true" signature="6:148" ph="..." />
-            <marker date="1615810152819" expanded="true" signature="176:4287" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="207:259" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="309:4285" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="582:615" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="645:939" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="736:841" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="970:1078" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="1114:1232" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="1267:1379" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="1423:1945" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="1504:1729" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="1580:1715" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="2019:2122" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="2224:2385" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="2444:2988" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="3052:3206" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="3292:3818" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="3889:4279" ph="{...}" />
-            <marker date="1615810152819" expanded="true" signature="4031:4158" ph="{...}" />
+            <marker date="1615816785100" expanded="false" signature="6:47" ph="..." />
+            <marker date="1615816785100" expanded="true" signature="86:1684" ph="{...}" />
+            <marker date="1615816785100" expanded="true" signature="131:1682" ph="{...}" />
+            <marker date="1615816785100" expanded="true" signature="387:498" ph="{...}" />
+            <marker date="1615816785100" expanded="true" signature="617:724" ph="{...}" />
+            <marker date="1615816785100" expanded="true" signature="840:955" ph="{...}" />
+            <marker date="1615816785100" expanded="true" signature="1078:1189" ph="{...}" />
+            <marker date="1615816785100" expanded="true" signature="1309:1426" ph="{...}" />
+            <marker date="1615816785100" expanded="true" signature="1563:1676" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/SpriteRendererExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1615816784800" expanded="false" signature="6:47" ph="..." />
+            <marker date="1615816784800" expanded="true" signature="86:810" ph="{...}" />
+            <marker date="1615816784800" expanded="true" signature="137:808" ph="{...}" />
+            <marker date="1615816784800" expanded="true" signature="224:353" ph="{...}" />
+            <marker date="1615816784800" expanded="true" signature="473:573" ph="{...}" />
+            <marker date="1615816784800" expanded="true" signature="697:802" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/FloatExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding>
+            <marker date="1615816784700" expanded="true" signature="37:215" ph="{...}" />
+            <marker date="1615816784700" expanded="true" signature="79:213" ph="{...}" />
+            <marker date="1615816784700" expanded="true" signature="164:207" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/GraphicExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <marker date="1615816784510" expanded="false" signature="6:69" ph="..." />
+            <marker date="1615816784510" expanded="true" signature="108:1079" ph="{...}" />
+            <marker date="1615816784510" expanded="true" signature="152:772" ph="{...}" />
+            <marker date="1615816784510" expanded="true" signature="229:352" ph="{...}" />
+            <marker date="1615816784510" expanded="true" signature="454:551" ph="{...}" />
+            <marker date="1615816784510" expanded="true" signature="665:766" ph="{...}" />
+            <marker date="1615816784510" expanded="true" signature="848:1077" ph="{...}" />
+            <marker date="1615816784510" expanded="true" signature="959:1071" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/CanvasGroupExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <marker date="1615820140891" expanded="true" signature="6:47" ph="..." />
+            <marker date="1615820140891" expanded="true" signature="86:358" ph="{...}" />
+            <marker date="1615820140891" expanded="true" signature="134:356" ph="{...}" />
+            <marker date="1615820140891" expanded="true" signature="249:350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/RectTransformExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <marker date="1615818986320" expanded="false" signature="6:47" ph="..." />
+            <marker date="1615818986320" expanded="true" signature="86:998" ph="{...}" />
+            <marker date="1615818986320" expanded="true" signature="136:996" ph="{...}" />
+            <marker date="1615818986320" expanded="true" signature="250:347" ph="{...}" />
+            <marker date="1615818986320" expanded="true" signature="467:570" ph="{...}" />
+            <marker date="1615818986320" expanded="true" signature="684:787" ph="{...}" />
+            <marker date="1615818986320" expanded="true" signature="894:990" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Components/TweenScale.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Ease/Easing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1615824120641" expanded="true" signature="51:28786" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="110:28784" ph="{...}" />
+            <marker date="1615824120641" expanded="false" signature="193:26247" ph="Equations" />
+            <marker date="1615824120641" expanded="false" signature="298:805" ph="Linear" />
+            <marker date="1615824120641" expanded="true" signature="318:680" ph="/// Easing equation function for a simple linear tweening, with no easing. ... " />
+            <marker date="1615824120641" expanded="true" signature="747:789" ph="{...}" />
+            <marker date="1615824120641" expanded="false" signature="811:3337" ph="Expo" />
+            <marker date="1615824120641" expanded="true" signature="829:1224" ph="/// Easing equation function for an exponential (2^t) easing out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="1296:1384" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="1390:1784" ph="/// Easing equation function for an exponential (2^t) easing in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="1855:1937" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="1943:2355" ph="/// Easing equation function for an exponential (2^t) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="2429:2680" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="2686:3098" ph="/// Easing equation function for an exponential (2^t) easing out/in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="3172:3321" ph="{...}" />
+            <marker date="1615824120641" expanded="false" signature="3343:5779" ph="Circular" />
+            <marker date="1615824120641" expanded="true" signature="3365:3764" ph="/// Easing equation function for a circular (sqrt(1-t^2)) easing out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="3836:3908" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="3914:4312" ph="/// Easing equation function for a circular (sqrt(1-t^2)) easing in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="4383:4455" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="4461:4877" ph="/// Easing equation function for a circular (sqrt(1-t^2)) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="4951:5118" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="5124:5540" ph="/// Easing equation function for a circular (sqrt(1-t^2)) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="5614:5763" ph="{...}" />
+            <marker date="1615824120641" expanded="false" signature="5785:8115" ph="Quad" />
+            <marker date="1615824120641" expanded="true" signature="5803:6195" ph="/// Easing equation function for a quadratic (t^2) easing out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="6267:6323" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="6329:6720" ph="/// Easing equation function for a quadratic (t^2) easing in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="6791:6840" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="6846:7255" ph="/// Easing equation function for a quadratic (t^2) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="7329:7461" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="7467:7876" ph="/// Easing equation function for a quadratic (t^2) easing out/in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="7950:8099" ph="{...}" />
+            <marker date="1615824120641" expanded="false" signature="8121:10545" ph="Sine" />
+            <marker date="1615824120641" expanded="true" signature="8139:8535" ph="/// Easing equation function for a sinusoidal (sin(t)) easing out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="8607:8677" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="8683:9078" ph="/// Easing equation function for a sinusoidal (sin(t)) easing in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="9149:9224" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="9230:9643" ph="/// Easing equation function for a sinusoidal (sin(t)) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="9717:9887" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="9893:10306" ph="/// Easing equation function for a sinusoidal (sin(t)) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="10380:10529" ph="{...}" />
+            <marker date="1615824120641" expanded="false" signature="10551:12890" ph="Cubic" />
+            <marker date="1615824120641" expanded="true" signature="10570:10958" ph="/// Easing equation function for a cubic (t^3) easing out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="11031:11097" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="11103:11490" ph="/// Easing equation function for a cubic (t^3) easing in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="11562:11615" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="11621:12026" ph="/// Easing equation function for a cubic (t^3) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="12101:12237" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="12243:12648" ph="/// Easing equation function for a cubic (t^3) easing out/in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="12723:12874" ph="{...}" />
+            <marker date="1615824120641" expanded="false" signature="12896:15263" ph="Quartic" />
+            <marker date="1615824120641" expanded="true" signature="12917:13307" ph="/// Easing equation function for a quartic (t^4) easing out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="13380:13451" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="13457:13846" ph="/// Easing equation function for a quartic (t^4) easing in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="13918:13975" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="13981:14388" ph="/// Easing equation function for a quartic (t^4) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="14463:14608" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="14614:15021" ph="/// Easing equation function for a quartic (t^4) easing out/in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="15096:15247" ph="{...}" />
+            <marker date="1615824120641" expanded="false" signature="15269:17648" ph="Quintic" />
+            <marker date="1615824120641" expanded="true" signature="15290:15680" ph="/// Easing equation function for a quintic (t^5) easing out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="15753:15827" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="15833:16222" ph="/// Easing equation function for a quintic (t^5) easing in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="16294:16355" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="16361:16768" ph="/// Easing equation function for a quintic (t^5) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="16843:16994" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="17000:17407" ph="/// Easing equation function for a quintic (t^5) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="17482:17632" ph="{...}" />
+            <marker date="1615824120641" expanded="false" signature="17654:20687" ph="Elastic" />
+            <marker date="1615824120641" expanded="true" signature="17675:18095" ph="/// Easing equation function for an elastic (exponentially decaying sine wave) easing out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="18170:18387" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="18393:18812" ph="/// Easing equation function for an elastic (exponentially decaying sine wave) easing in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="18886:19106" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="19112:19549" ph="/// Easing equation function for an elastic (exponentially decaying sine wave) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="19626:19997" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="20003:20440" ph="/// Easing equation function for an elastic (exponentially decaying sine wave) easing out/in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="20517:20671" ph="{...}" />
+            <marker date="1615824120641" expanded="false" signature="20693:23586" ph="Bounce" />
+            <marker date="1615824120641" expanded="true" signature="20713:21138" ph="/// Easing equation function for a bounce (exponentially decaying parabolic bounce) easing out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="21212:21620" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="21626:22050" ph="/// Easing equation function for a bounce (exponentially decaying parabolic bounce) easing in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="22123:22189" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="22195:22637" ph="/// Easing equation function for a bounce (exponentially decaying parabolic bounce) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="22713:22894" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="22900:23342" ph="/// Easing equation function for a bounce (exponentially decaying parabolic bounce) easing out/in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="23418:23570" ph="{...}" />
+            <marker date="1615824120641" expanded="false" signature="23592:26232" ph="Back" />
+            <marker date="1615824120641" expanded="true" signature="23610:24038" ph="/// Easing equation function for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="24110:24206" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="24212:24639" ph="/// Easing equation function for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="24710:24793" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="24799:25244" ph="/// Easing equation function for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing in/out:  ... " />
+            <marker date="1615824120641" expanded="true" signature="25318:25543" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="25549:25994" ph="/// Easing equation function for a back (overshooting cubic easing: (s+1)*t^3 - s*t^2) easing out/in:  ... " />
+            <marker date="1615824120641" expanded="true" signature="26068:26216" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="26300:28777" ph="{...}" />
+            <marker date="1615824120641" expanded="true" signature="26323:28774" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/EaseType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <marker date="1615824057641" expanded="true" signature="26:986" ph="{...}" />
+            <marker date="1615824057641" expanded="true" signature="53:983" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/GraphicsJob.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <marker date="1615824145851" expanded="false" signature="6:104" ph="..." />
+            <marker date="1615824145851" expanded="true" signature="137:4299" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="182:4297" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="444:577" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="682:1479" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="918:1398" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="1531:2301" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="1849:2169" ph="{...}" />
+            <marker date="1615824145851" expanded="false" signature="2320:3575" ph="Setup" />
+            <marker date="1615824145851" expanded="true" signature="2377:2910" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="2432:2896" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="2970:3102" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="3171:3307" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="3378:3556" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="3585:4283" ph="Interpolation" />
+            <marker date="1615824145851" expanded="true" signature="3650:3808" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="3870:4035" ph="{...}" />
+            <marker date="1615824145851" expanded="true" signature="4098:4264" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/ITweenJob.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding>
+            <marker date="1615824151801" expanded="false" signature="6:42" ph="..." />
+            <marker date="1615824151801" expanded="true" signature="75:1533" ph="{...}" />
+            <marker date="1615824151801" expanded="true" signature="137:222" ph="{...}" />
+            <marker date="1615824151801" expanded="true" signature="251:377" ph="{...}" />
+            <marker date="1615824151801" expanded="true" signature="474:1530" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/MaterialJob.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <marker date="1615824151871" expanded="false" signature="6:47" ph="..." />
+            <marker date="1615824151871" expanded="true" signature="80:4613" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="126:4611" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="477:584" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="772:1614" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="1077:1533" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="1666:2427" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="1999:2295" ph="{...}" />
+            <marker date="1615824151871" expanded="false" signature="2445:3712" ph="Setup" />
+            <marker date="1615824151871" expanded="true" signature="2502:3010" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="2556:2996" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="3074:3229" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="3294:3445" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="3516:3693" ph="{...}" />
+            <marker date="1615824151871" expanded="false" signature="3722:4597" ph="Interpolation" />
+            <marker date="1615824151871" expanded="true" signature="3788:3989" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="4050:4226" ph="{...}" />
+            <marker date="1615824151871" expanded="true" signature="4285:4578" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/SpriteRendererJob.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <marker date="1615824151751" expanded="false" signature="6:82" ph="..." />
+            <marker date="1615824151751" expanded="true" signature="115:3469" ph="{...}" />
+            <marker date="1615824151751" expanded="true" signature="166:3467" ph="{...}" />
+            <marker date="1615824151751" expanded="true" signature="420:533" ph="{...}" />
+            <marker date="1615824151751" expanded="true" signature="638:1313" ph="{...}" />
+            <marker date="1615824151751" expanded="true" signature="880:1232" ph="{...}" />
+            <marker date="1615824151751" expanded="true" signature="1365:2074" ph="{...}" />
+            <marker date="1615824151751" expanded="true" signature="1710:1942" ph="{...}" />
+            <marker date="1615824151751" expanded="false" signature="2084:2981" ph="Setup" />
+            <marker date="1615824151751" expanded="true" signature="2141:2551" ph="{...}" />
+            <marker date="1615824151751" expanded="true" signature="2195:2537" ph="{...}" />
+            <marker date="1615824151751" expanded="true" signature="2615:2758" ph="{...}" />
+            <marker date="1615824151751" expanded="true" signature="2823:2962" ph="{...}" />
+            <marker date="1615824151751" expanded="false" signature="2991:3461" ph="Interpolation" />
+            <marker date="1615824151751" expanded="true" signature="3057:3222" ph="{...}" />
+            <marker date="1615824151751" expanded="true" signature="3268:3441" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Components/TweenJob.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+          <folding>
+            <marker date="1615824151561" expanded="false" signature="6:207" ph="..." />
+            <marker date="1615824151561" expanded="true" signature="246:8187" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="273:349" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="376:441" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="472:550" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="579:651" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="713:1223" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="973:1217" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="1290:1878" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="1536:1733" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="1766:1872" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="2041:8185" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="2822:2865" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="2895:2947" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="3013:3244" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="3131:3234" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="3282:3568" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="3626:4628" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="3728:3841" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="3906:4017" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="4084:4197" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="4265:4381" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="4449:4565" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="4701:5258" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="4803:5248" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="4853:5234" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="5297:5353" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="5389:5440" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="5473:5572" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="5721:7348" ph="Job Assignment" />
+            <marker date="1615824151561" expanded="true" signature="5781:6057" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="5827:6042" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="6098:6374" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="6144:6359" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="6428:6707" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="6474:6692" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="6758:7015" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="6804:7000" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="7056:7315" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="7102:7300" ph="{...}" />
+            <marker date="1615824151561" expanded="false" signature="7368:8179" ph="Event Handlers" />
+            <marker date="1615824151561" expanded="true" signature="7429:7491" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="7536:7600" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="7644:7707" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="7751:7813" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="7859:7966" ph="{...}" />
+            <marker date="1615824151561" expanded="true" signature="8033:8160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Editor/TweenJobComponentEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="166" column="15" lean-forward="true" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
+          <folding>
+            <marker date="1615824161351" expanded="false" signature="6:192" ph="..." />
+            <marker date="1615824161351" expanded="true" signature="222:17096" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="328:17094" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="724:1079" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="750:1069" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="800:1024" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="1112:1276" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="1323:1670" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="1737:2618" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="2041:2339" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="2247:2325" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="2675:4220" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="2982:3041" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="3128:3300" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="3214:3286" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="3317:3491" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="3404:3477" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="3604:3663" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="3795:3857" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="4277:5815" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="5019:5180" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="5230:5505" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="5870:6761" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="6063:6358" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="6375:6725" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="6568:6659" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="6823:7124" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="7180:7320" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="7378:7520" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="7568:7638" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="7689:7815" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="7864:7975" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="8044:9270" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="8284:8863" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="8671:8849" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="8880:9202" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="9011:9188" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="9337:10446" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="9617:9998" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="10015:10142" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="10207:10391" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="10511:11610" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="10789:11168" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="11185:11310" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="11375:11555" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="11676:12780" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="11955:12335" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="12352:12478" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="12543:12725" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="12847:13956" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="13127:13508" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="13525:13652" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="13717:13901" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="14021:15120" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="14299:14678" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="14695:14820" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="14885:15065" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="15166:15342" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="15425:15723" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="15852:16260" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="16117:16225" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="16324:16573" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="16360:16538" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="16619:16802" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="16680:16791" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="16855:17088" ph="{...}" />
+            <marker date="1615824161351" expanded="true" signature="16916:17077" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/CanvasGroupJob.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <marker date="1615824151651" expanded="false" signature="6:47" ph="..." />
+            <marker date="1615824151651" expanded="true" signature="80:2696" ph="{...}" />
+            <marker date="1615824151651" expanded="true" signature="129:2694" ph="{...}" />
+            <marker date="1615824151651" expanded="true" signature="298:389" ph="{...}" />
+            <marker date="1615824151651" expanded="true" signature="419:471" ph="{...}" />
+            <marker date="1615824151651" expanded="true" signature="584:1163" ph="{...}" />
+            <marker date="1615824151651" expanded="true" signature="828:1082" ph="{...}" />
+            <marker date="1615824151651" expanded="true" signature="1215:1847" ph="{...}" />
+            <marker date="1615824151651" expanded="true" signature="1541:1715" ph="{...}" />
+            <marker date="1615824151651" expanded="false" signature="1865:2422" ph="Setup" />
+            <marker date="1615824151651" expanded="true" signature="1921:2212" ph="{...}" />
+            <marker date="1615824151651" expanded="true" signature="1968:2202" ph="{...}" />
+            <marker date="1615824151651" expanded="true" signature="2281:2403" ph="{...}" />
+            <marker date="1615824151651" expanded="false" signature="2440:2688" ph="Interpolation" />
+            <marker date="1615824151651" expanded="true" signature="2517:2669" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Sequences/ITweenSequence.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <marker date="1615824151691" expanded="false" signature="6:105" ph="..." />
+            <marker date="1615824151691" expanded="true" signature="143:1326" ph="{...}" />
+            <marker date="1615824151691" expanded="true" signature="302:464" ph="{...}" />
+            <marker date="1615824151691" expanded="true" signature="505:1324" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/TweenJobBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="248" column="41" lean-forward="true" selection-start-line="248" selection-start-column="41" selection-end-line="248" selection-end-column="41" />
+          <folding>
+            <marker date="1615824151831" expanded="false" signature="6:90" ph="..." />
+            <marker date="1615824151831" expanded="true" signature="123:7890" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="175:7888" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="586:672" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="704:783" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="1315:1418" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="1685:1933" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="1962:2044" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="2082:2164" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="2192:2303" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="2332:2490" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="2541:2601" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="2650:2746" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="2799:3019" ph="{...}" />
+            <marker date="1615824151831" expanded="false" signature="3037:3714" ph="Event Invoker" />
+            <marker date="1615824151831" expanded="true" signature="3099:3309" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="3354:3489" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="3530:3592" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="3633:3695" ph="{...}" />
+            <marker date="1615824151831" expanded="false" signature="3732:6228" ph="Helper Methods" />
+            <marker date="1615824151831" expanded="true" signature="3811:4411" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="3866:4400" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="3957:4075" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="4097:4385" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="4497:4837" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="4944:5221" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="5328:5540" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="5645:5819" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="5869:6010" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="6086:6209" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="6246:7882" ph="Chained Methods" />
+            <marker date="1615824151831" expanded="true" signature="6331:6429" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="6487:6585" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="6652:6752" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="6814:6916" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="7009:7212" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="7281:7400" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="7454:7553" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="7608:7708" ph="{...}" />
+            <marker date="1615824151831" expanded="true" signature="7763:7863" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/TestUi.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="304">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
-            <marker date="1615811133189" expanded="true" signature="6:82" ph="..." />
-            <marker date="1615811133189" expanded="true" signature="119:833" ph="{...}" />
-            <marker date="1615811133189" expanded="true" signature="161:831" ph="{...}" />
-            <marker date="1615811133189" expanded="true" signature="440:575" ph="{...}" />
-            <marker date="1615811133189" expanded="true" signature="645:825" ph="{...}" />
+            <marker date="1615824186641" expanded="true" signature="6:157" ph="..." />
+            <marker date="1615824186641" expanded="true" signature="194:922" ph="{...}" />
+            <marker date="1615824186641" expanded="true" signature="236:920" ph="{...}" />
+            <marker date="1615824186641" expanded="true" signature="601:634" ph="{...}" />
+            <marker date="1615824186641" expanded="true" signature="728:824" ph="{...}" />
+            <marker date="1615824186641" expanded="true" signature="854:914" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/JobFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1615824636973" expanded="false" signature="6:81" ph="..." />
+            <marker date="1615824636973" expanded="true" signature="109:1088" ph="{...}" />
+            <marker date="1615824636973" expanded="true" signature="146:1086" ph="{...}" />
+            <marker date="1615824636973" expanded="true" signature="199:916" ph="{...}" />
+            <marker date="1615824636973" expanded="true" signature="1008:1080" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/RectTransformJob.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <marker date="1615824151721" expanded="false" signature="6:47" ph="..." />
+            <marker date="1615824151721" expanded="true" signature="80:5068" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="131:5066" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="313:406" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="574:1482" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="814:1388" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="1534:2382" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="1877:2250" ph="{...}" />
+            <marker date="1615824151721" expanded="false" signature="2400:4047" ph="Setup" />
+            <marker date="1615824151721" expanded="true" signature="2457:3077" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="2511:3063" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="3154:3312" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="3391:3540" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="3621:3774" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="3851:4002" ph="{...}" />
+            <marker date="1615824151721" expanded="false" signature="4065:5060" ph="Interpolation" />
+            <marker date="1615824151721" expanded="true" signature="4133:4315" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="4376:4557" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="4621:4808" ph="{...}" />
+            <marker date="1615824151721" expanded="true" signature="4864:5041" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Extensions/TransformExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <marker date="1615820861881" expanded="false" signature="6:47" ph="..." />
+            <marker date="1615820861881" expanded="true" signature="86:1219" ph="{...}" />
+            <marker date="1615820861881" expanded="true" signature="132:1217" ph="{...}" />
+            <marker date="1615820861881" expanded="true" signature="242:339" ph="{...}" />
+            <marker date="1615820861881" expanded="true" signature="449:552" ph="{...}" />
+            <marker date="1615820861881" expanded="true" signature="662:765" ph="{...}" />
+            <marker date="1615820861881" expanded="true" signature="880:988" ph="{...}" />
+            <marker date="1615820861881" expanded="true" signature="1103:1211" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Singleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <marker date="1615826347481" expanded="true" signature="46:507" ph="{...}" />
+            <marker date="1615826347481" expanded="true" signature="135:505" ph="{...}" />
+            <marker date="1615826347481" expanded="true" signature="211:499" ph="{...}" />
+            <marker date="1615826347481" expanded="true" signature="237:489" ph="{...}" />
+            <marker date="1615826347481" expanded="true" signature="290:441" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Sequences/SequenceJob.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+          <folding>
+            <marker date="1615824151521" expanded="false" signature="6:124" ph="..." />
+            <marker date="1615824151521" expanded="true" signature="162:9478" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="193:233" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="282:9476" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="368:458" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="1420:1510" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="1550:1825" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="1594:1760" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="1891:2515" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="2613:2682" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="2727:2889" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="2932:3670" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="3007:3394" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="3736:4530" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="3862:4140" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="3910:4126" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="4566:5048" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="4606:4965" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="5085:5167" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="5203:5284" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="5341:5842" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="5894:6013" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="6049:6573" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="6205:6269" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="6286:6563" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="6383:6513" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="6614:7280" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="6669:6919" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="7099:7270" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="7319:7523" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="7557:7659" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="7726:8475" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="7787:7938" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="8007:8440" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="8541:8743" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="8798:8880" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="8935:9017" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="9081:9164" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="9240:9324" ph="{...}" />
+            <marker date="1615824151521" expanded="true" signature="9383:9469" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/TJSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <marker date="1615827473761" expanded="false" signature="6:174" ph="..." />
+            <marker date="1615827473761" expanded="true" signature="202:5608" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="233:285" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="335:5606" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="724:1014" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="750:1004" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="803:956" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="1075:1108" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="1138:1426" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="1180:1285" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="1462:1571" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="1498:1561" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="1610:1718" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="1754:1872" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="1907:2019" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="2063:2585" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="2144:2369" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="2220:2355" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="2659:2762" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="2864:3087" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="3138:3682" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="3746:3900" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="3986:4512" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="4583:4973" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="4725:4852" ph="{...}" />
+            <marker date="1615827473761" expanded="false" signature="4983:5591" ph="Debugging" />
+            <marker date="1615827473761" expanded="true" signature="5049:5191" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="5242:5389" ph="{...}" />
+            <marker date="1615827473761" expanded="true" signature="5433:5572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/Examples/Scripts/Waypoints.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1615827500451" expanded="true" signature="6:137" ph="..." />
+            <marker date="1615827500451" expanded="true" signature="174:1707" ph="{...}" />
+            <marker date="1615827500451" expanded="true" signature="219:1705" ph="{...}" />
+            <marker date="1615827500451" expanded="true" signature="467:562" ph="{...}" />
+            <marker date="1615827500451" expanded="true" signature="619:753" ph="{...}" />
+            <marker date="1615827500451" expanded="true" signature="812:901" ph="{...}" />
+            <marker date="1615827500451" expanded="true" signature="941:1485" ph="{...}" />
+            <marker date="1615827500451" expanded="true" signature="1058:1441" ph="{...}" />
+            <marker date="1615827500451" expanded="true" signature="1281:1397" ph="{...}" />
+            <marker date="1615827500451" expanded="true" signature="1532:1698" ph="{...}" />
+            <marker date="1615827500451" expanded="true" signature="1564:1643" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AirCoder/TJ/Core/Jobs/TransformJob.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1883">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <marker date="1615827565471" expanded="false" signature="6:47" ph="..." />
+            <marker date="1615827565471" expanded="true" signature="80:6070" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="127:6068" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="300:389" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="565:1651" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="797:1557" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="1703:2707" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="2025:2575" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="2734:4799" ph="Setup" />
+            <marker date="1615827565471" expanded="true" signature="2795:3613" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="2849:3599" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="3690:3836" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="3922:4073" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="4152:4297" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="4378:4527" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="4613:4767" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="4817:6053" ph="Interpolation" />
+            <marker date="1615827565471" expanded="true" signature="4885:5055" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="5120:5295" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="5356:5534" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="5598:5781" ph="{...}" />
+            <marker date="1615827565471" expanded="true" signature="5846:6034" ph="{...}" />
           </folding>
         </state>
       </provider>

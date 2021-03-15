@@ -5,7 +5,6 @@ namespace AirCoder.TJ.Core.Ease
 	//TODO : rename ease functions
     public class Easing 
     {
-	    
 	  public delegate float Function(float t, float b, float c, float d);
      #region Equations
 
@@ -713,52 +712,6 @@ namespace AirCoder.TJ.Core.Ease
 
     #endregion
     #endregion
-	
-	
-	public enum EaseType
-	{
-		Linear,
-		ExpoEaseInOut,
-		ExpoEaseOut,
-		ExpoEaseIn,
-		ExpoEaseOutIn,
-		CircEaseOut,
-		CircEaseIn,
-		CircEaseInOut,
-		CircEaseOutIn,
-		QuadEaseOut,
-		QuadEaseIn,
-		QuadEaseInOut,
-		QuadEaseOutIn,
-		SineEaseOut,
-		SineEaseIn,
-		SineEaseInOut,
-		SineEaseOutIn,
-		CubicEaseOut,
-		CubicEaseIn,
-		CubicEaseInOut,
-		CubicEaseOutIn,
-		QuartEaseIn,
-		QuartEaseOut,
-		QuartEaseInOut,
-		QuartEaseOutIn,
-		QuintEaseIn,
-		QuintEaseOut,
-		QuintEaseInOut,
-		QuintEaseOutIn,
-		ElasticEaseIn,
-		ElasticEaseOut,
-		ElasticEaseInOut,
-		ElasticEaseOutIn,
-		BounceEaseIn,
-		BounceEaseOut,
-		BounceEaseInOut,
-		BounceEaseOutIn,
-		BackEaseIn,
-		BackEaseOut,
-		BackEaseInOut,
-		BackEaseOutIn,
-	};
 	
 	public static Function GetEase(EaseType equation)
 	{

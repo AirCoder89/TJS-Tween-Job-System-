@@ -1,29 +1,38 @@
-﻿using AirCoder.TJ.Core.Ease;
+﻿using AirCoder.TJ.Core;
+using AirCoder.TJ.Core.Ease;
 using AirCoder.TJ.Core.Extensions;
+using AirCoder.TJ.Core.Jobs;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace AirCoder.Examples.Scripts
 {
     public class TestUi : MonoBehaviour
     {
-        [SerializeField] private RectTransform rt;
+        [SerializeField] private Text text;
+        [SerializeField] private CanvasGroup cGroup;
+        [SerializeField] private Transform rt;
         [SerializeField] private float speed;
         [SerializeField] private Vector2 targetScale;
-        [SerializeField] private Easing.EaseType ease;
+        [SerializeField] private EaseType ease;
         
         [ContextMenu("Test")]
         private void Test()
         {
-            rt.TweenScale(targetScale).SetEase(ease).OnComplete(() => { Debug.Log($"Tween Complete !"); }).Play();
+            
         }
-        
+
+        private ITweenJob _job;
         [ContextMenu("Test 2")]
         private void Test2()
         {
-            var job = rt.TweenScale(targetScale, speed)
-                .SetEase(ease)
-                .OnComplete(() => { Debug.Log($"Tween Complete !"); });
+            _job = text.TweenColor(Color.red);
+            _job.Play(true);
+        }
 
+        public void Sample()
+        {
+            Debug.Log($"Completed !!");
         }
     }
 }

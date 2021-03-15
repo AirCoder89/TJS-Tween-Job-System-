@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using AirCoder.TJ.Core.Jobs;
@@ -14,12 +15,31 @@ namespace AirCoder.TJ.Core
     
     public class TJSystem: BaseMonoBehaviour
     {
-        public static TJSystem Instance;
+        public bool allowDebugging;
+        public bool isRun = true;
+        
         private static HashSet<ITweenJob> _jobsInProgress;
         private static HashSet<ITweenSequence> _sequencesInProgress;
         
         public UpdateMethod method;
 
+
+        private static TJSystem _instance;
+        private bool _isInitialized;
+        
+        public static TJSystem Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    var go = new GameObject("[ TJS ]");
+                    _instance = go.AddComponent<TJSystem>();
+                }
+                return _instance;
+            }
+        }
+        
         protected override void ReleaseReferences()
         {
             
@@ -27,16 +47,27 @@ namespace AirCoder.TJ.Core
 
         private void Awake()
         {
-            //TODO : make it dynamic singleton
-            if (Instance != null)
+            if (_isInitialized)
             {
                 GameObject.Destroy(this.gameObject);
                 return;
             }
-            Instance = this;
-            GameObject.DontDestroyOnLoad(this.gameObject);
-        }
 
+            _isInitialized = true;
+            GameObject.DontDestroyOnLoad(this.gameObject);
+            StartCoroutine(Tick());
+        }
+        
+        
+
+        private IEnumerator Tick()
+        {
+            while (isRun)
+            {
+                yield return null;
+            }
+        }
+        
         private void Update()
         {
             if(method != UpdateMethod.Update) return;
@@ -78,11 +109,12 @@ namespace AirCoder.TJ.Core
 
         public static ITweenJob Tween<T>(T targetReference, JObType job, params object[] parameters)
         {
+            if(Instance == null) Debug.Log($"TJS Created !");
             var tweenJob = GetTweenJob<T>();
             tweenJob.TweenTo<T>(targetReference, job, parameters);
             return tweenJob;
         }
-        
+
         private static ITweenJob GetTweenJob<T>()
         {
             if(_jobsInProgress == null) _jobsInProgress = new HashSet<ITweenJob>();
@@ -132,5 +164,24 @@ namespace AirCoder.TJ.Core
             _sequencesInProgress.Remove(sequence);
             JobPool.DespawnSequence(sequence);
         }
+
+        #region Debugging
+            public void LogError(string message)
+            {
+                if(!allowDebugging) return;
+                Debug.LogError($"<color=red>TJS></color> {message}");
+            }
+            public void LogWarning(string message)
+            {
+                if(!allowDebugging) return;
+                Debug.LogWarning($"<color=yellow>TJS></color> {message}");
+            }
+            public void Log(string message)
+            {
+                if(!allowDebugging) return;
+                Debug.Log($"<color=green>TJS></color> {message}");
+            }
+        #endregion
+        
     }
 }

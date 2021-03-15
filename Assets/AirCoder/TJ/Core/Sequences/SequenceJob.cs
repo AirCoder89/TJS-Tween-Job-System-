@@ -29,20 +29,23 @@ namespace AirCoder.TJ.Core.Sequences
         
         private TJSystem _system;
         private List<ITweenJob> _jobs;
-        private Easing.EaseType _selectedEase;
+        private EaseType _selectedEase;
         private bool _isPlaying;
         private ITweenJob _currentJob;
         private SequenceType _seqType;
         private int _jobIndex;
         private float _duration;
         private bool _applyEase;
-        private float _remainingTime;
         private float _currentTime;
         private float _maxJobDuration;
         private float _totalJobDuration;
         private uint _nbLoop;
         private int _loopCounter;
         private bool _loopSequence;
+        private bool _isRewind;
+        private bool _playBackward;
+        private SequenceTrackingData _trackingData;
+        
         public SequenceJob(TJSystem system, SequenceType type)
         {
             this._system = system;
@@ -51,27 +54,34 @@ namespace AirCoder.TJ.Core.Sequences
 
         public ITweenSequence Rewind()
         {
-            //TODO : (rewind) & (rewind with loop)
+            if (_jobs.Count <= 1)
+            {
+                _system.LogWarning("Sequence is empty! you have to append jobs before call Rewind method.");
+                return this;
+            }
+            _isRewind = true;
             return this;
         }
        
         public void Initialize(SequenceType sequenceType)
         {
             this._duration = 0f;
-            this._remainingTime = 0f;
             this._totalJobDuration = 0f;
             this._maxJobDuration = 0f;
             this._loopCounter = 0;
             this._nbLoop = 0;
-            this._currentTime = 0f;
+            ResetTime();
             _jobIndex = -1;
             _seqType = sequenceType;
             this._currentJob = null;
             _applyEase = false;
             isPlaying = false;
             _loopSequence = false;
+            _isRewind = false;
+            _playBackward = false;
             _jobs = new List<ITweenJob>();
             RemoveEventListeners();
+            _trackingData = new SequenceTrackingData();
         }
 
         public List<ITweenJob> GetJobs() => this._jobs;
@@ -106,16 +116,13 @@ namespace AirCoder.TJ.Core.Sequences
             }
             
             UpdateSequenceTime(deltaTime);
-            
-            onUpdate?.Invoke(new SequenceTrackingData()
-            {
-                allJobs = GetJobs(),
-                currentJob = _currentJob,
-                normalizedTime = this.normalizedTime,
-                timeRemaining = this._remainingTime
-            }); 
-        }
 
+            _trackingData.allJobs = GetJobs();
+            _trackingData.currentJob = _currentJob;
+            _trackingData.normalizedTime = this.normalizedTime;
+            onUpdate?.Invoke(_trackingData); 
+        }
+        
         private void UpdateSequenceTime(float deltaTime)
         {
             _currentTime += deltaTime;
@@ -129,9 +136,11 @@ namespace AirCoder.TJ.Core.Sequences
                     case SequenceType.Parallel: finalDuration = _maxJobDuration;  break;
                 }
             }
+
+            //if (_isRewind) finalDuration *= 2;
             
             if (_currentTime >= finalDuration) _currentTime = finalDuration;
-            _remainingTime = finalDuration - _currentTime;
+            _trackingData.normalizedTime = finalDuration - _currentTime;
             normalizedTime = _currentTime / finalDuration;
             
             if(normalizedTime >= 1f && _seqType == SequenceType.Parallel) SequenceComplete(); 
@@ -189,17 +198,36 @@ namespace AirCoder.TJ.Core.Sequences
 
         private void PlayNextJob()
         {
-            _jobIndex++;
-            if (_jobIndex >= _jobs.Count) SequenceComplete();
+            if(_playBackward) _jobIndex--;
+            else  _jobIndex++;
+            
+            if (_jobIndex >= _jobs.Count || _jobIndex < 0)
+            {
+                SequenceComplete();
+            }
             else
             {
                 _currentJob = _jobs[_jobIndex];
+                if (_playBackward)
+                {
+                    Debug.Log("rewind job !");
+                    _currentJob.SetupRewind();
+                }
                 _currentJob.Play();
             }
         }
 
         private void SequenceComplete()
         {
+            if (_isRewind && !_playBackward)
+            {
+                Debug.Log("Seq Complete : playBackward!");
+                _playBackward = true;
+                ResetTime();
+                _jobIndex = _jobs.Count;
+                PlayNextJob();
+                return;
+            }
             if (!_loopSequence) this.onComplete?.Invoke();
             else if (_loopSequence && _nbLoop == 0) PrepareForLoop();
             else if (_loopSequence && _nbLoop > 0)
@@ -212,19 +240,25 @@ namespace AirCoder.TJ.Core.Sequences
 
         private void PrepareForLoop()
         {
-            this._remainingTime = 0f;
-            this._currentTime = 0f;
+            Debug.Log("Prepare for loop");
+            ResetTime();
             this._currentJob = null;
             isPlaying = false;
             _jobIndex = -1;
             Play();
+        }
+
+        private void ResetTime()
+        {
+            _trackingData.timeRemaining = 0f;
+            this._currentTime = 0f;
         }
         
         public ITweenSequence SetDuration(float duration)
         {
             if (_jobs == null || _jobs.Count == 0)
             {
-                Debug.LogWarning("you cannot set sequence duration before appending jobs");
+                _system.LogWarning("you cannot set sequence duration before appending jobs");
                 return this;
             }
             this._duration = duration;
@@ -243,7 +277,7 @@ namespace AirCoder.TJ.Core.Sequences
             return this;
         }
         
-        public ITweenSequence SetEase(Easing.EaseType easeType)
+        public ITweenSequence SetEase(EaseType easeType)
         {
             _applyEase = true;
             this._selectedEase = easeType;

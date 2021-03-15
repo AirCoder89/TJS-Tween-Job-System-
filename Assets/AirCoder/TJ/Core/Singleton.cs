@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace AirCoder.TJ.Core
 {
-    public class Singleton<T> where T : BaseMonoBehaviour
+    public abstract class Singleton<T> : BaseMonoBehaviour where T : BaseMonoBehaviour
     {
         private static T _instance;
 
@@ -14,9 +14,7 @@ namespace AirCoder.TJ.Core
                 {
                     var go = new GameObject(typeof(T).Name);
                     _instance = go.AddComponent<T>();
-                    Object.DontDestroyOnLoad(go);
                 }
-
                 return _instance;
             }
         }

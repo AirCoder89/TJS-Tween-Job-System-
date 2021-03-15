@@ -5,19 +5,32 @@
     <e p="C:\Users\SBS\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\SBS\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_TJS-Tween-Job-System-.16164964.00" t="ExcludeRecursive" />
     <e p="D:\Project2020\GitHub\TJS-Tween-Job-System-" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AirCoder" t="Include">
           <e p="Examples" t="Include">
             <e p="Scripts" t="Include">
               <e p="TestUi.cs" t="Include" />
+              <e p="Waypoints.cs" t="Include" />
             </e>
           </e>
           <e p="TJ" t="Include">
             <e p="Core" t="Include">
               <e p="BaseMonoBehaviour.cs" t="Include" />
+              <e p="Components" t="Include">
+                <e p="TJComponent.cs" t="Include" />
+                <e p="TweenJob.cs" t="Include" />
+              </e>
+              <e p="DataConfig" t="Include">
+                <e p="TweenConfig.cs" t="Include" />
+              </e>
               <e p="Ease" t="Include">
                 <e p="Easing.cs" t="Include" />
+              </e>
+              <e p="EaseType.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="AboutWindow.cs" t="Include" />
               </e>
               <e p="Extensions" t="Include">
                 <e p="CanvasGroupExtensions.cs" t="Include" />
@@ -31,11 +44,13 @@
               <e p="JobFactory.cs" t="Include" />
               <e p="JobPool.cs" t="Include" />
               <e p="Jobs" t="Include">
+                <e p="CanvasGroupJob.cs" t="Include" />
                 <e p="GraphicsJob.cs" t="Include" />
                 <e p="ITweenJob.cs" t="Include" />
                 <e p="MaterialJob.cs" t="Include" />
                 <e p="RectTransformJob.cs" t="Include" />
                 <e p="SpriteRendererJob.cs" t="Include" />
+                <e p="TransformJob.cs" t="Include" />
                 <e p="TweenJobBase.cs" t="Include" />
               </e>
               <e p="Sequences" t="Include">
@@ -44,7 +59,9 @@
               </e>
               <e p="Singleton.cs" t="Include" />
               <e p="TJSystem.cs" t="Include" />
-              <e p="TweenSequence.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="TweenJobComponentEditor.cs" t="Include" />
             </e>
           </e>
         </e>
