@@ -56,16 +56,16 @@ namespace AirCoder.TJ.Core.Jobs
 
         public abstract void Tick(float deltaTime);
         
-        
-        public void Play(bool rewind = false)
+        public ITweenJob Play(bool rewind = false)
         {
-            if(isPlaying) return;
+            if(isPlaying) return this;
             currentTime = 0f;
             _remainingTime = duration;
             _isRewind = rewind;
             jobAction?.Invoke();
             isPlaying = true;
             onPlay?.Invoke();
+            return this;
         }
 
         public void Pause()

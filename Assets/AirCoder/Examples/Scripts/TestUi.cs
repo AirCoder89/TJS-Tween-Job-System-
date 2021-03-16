@@ -19,7 +19,7 @@ namespace AirCoder.Examples.Scripts
         [ContextMenu("Test")]
         private void Test()
         {
-            
+          
         }
 
         private ITweenJob _job;

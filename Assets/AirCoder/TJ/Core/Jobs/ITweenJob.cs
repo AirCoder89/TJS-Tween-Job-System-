@@ -26,7 +26,7 @@ namespace AirCoder.TJ.Core.Jobs
         void Initialize(Type type);
         ITweenJob TweenTo<T>(T targetInstance,JObType job, params object[] parameters);
         void Tick(float deltaTime);
-        void Play(bool rewind = false);
+        ITweenJob Play(bool rewind = false);
         void Resume();
         void Pause();
         void Kill();
