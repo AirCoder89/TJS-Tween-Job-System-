@@ -2,28 +2,34 @@
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace AirCoder.TJ.Core.Editor
+namespace AirCoder.TJ.Editor
 {
     public class AboutWindow : EditorWindow
     {
         [MenuItem("AirCoder/About TJS")]
         static void ShowAboutWindow()
         {
-            AboutWindow w = EditorWindow.GetWindowWithRect<AboutWindow>(new Rect(100, 100, 570, 360), true, "Tween Job System");
+            AboutWindow w = EditorWindow.GetWindowWithRect<AboutWindow>(new Rect(100, 100, 470, 360), true, "TJS - Tween Job System");
             w.position = new Rect(100, 100, 570, 360);
         }
 
         private static GUIContent s_MonoLogo, s_AgeiaLogo, s_Header;
 
-        private const string kSpecialThanksNames = "Thanks to Forest 'Yoggy' Johnson, Graham McAllister, David Janik-Jones, Raimund Schumacher, Alan J. Dickins and Emil 'Humus' Persson";
-
-        
+        private const string scrollText1 = "Scripting powered by AirCoder 2021.";
+        private const string scrollText2 = "TJS version 1.0.0";
+        private const string scrollText3 = "";
+        private const string scrollText4 = "TJS it's an optimized animation engine for Unity with API made to boost efficiency,";
+        private const string scrollText5 = "intuitiveness and ease of use.";
+       
+        private const string githubLink = "https://github.com/AirCoder89/TJS-Tween-Job-System-";
+        private const string linkedInLink = "https://www.linkedin.com/in/atef-sassi-a84334124";
+        private const string facebookLink = "https://www.facebook.com/Sassi.3atef";
+           
         private static void LoadLogos()
         {
             if (s_MonoLogo != null)
                 return;
-            s_MonoLogo = EditorGUIUtility.IconContent("BoxCollider Icon");//TODO 
-            s_AgeiaLogo = EditorGUIUtility.IconContent("AgeiaLogo");
+            s_MonoLogo = EditorGUIUtility.IconContent("console.infoicon");
             s_Header = EditorGUIUtility.IconContent("AboutWindow.MainHeader");
         }
 
@@ -31,7 +37,6 @@ namespace AirCoder.TJ.Core.Editor
         {
             EditorApplication.update += UpdateScroll;
             m_LastScrollUpdate = EditorApplication.timeSinceStartup;
-
         }
 
         public void OnDisable()
@@ -72,12 +77,6 @@ namespace AirCoder.TJ.Core.Editor
 
             ListenForSecretCodes();
 
-            var licenseTypeString = "";
-            if (InternalEditorUtility.HasFreeLicense())
-                licenseTypeString = " Personal";
-            if (InternalEditorUtility.HasEduLicense())
-                licenseTypeString = " Edu";
-
             GUILayout.BeginHorizontal();
             GUILayout.Space(52f); // Ident version information
 
@@ -98,7 +97,12 @@ namespace AirCoder.TJ.Core.Editor
             GUI.BeginGroup(scrollAreaRect);
            // foreach (string nameChunk in AboutWindowNames.Names(null, true))
                 //chunkOffset = DoCreditsNameChunk(nameChunk, creditsWidth, chunkOffset);
-            chunkOffset = DoCreditsNameChunk(kSpecialThanksNames, creditsWidth, chunkOffset);
+            chunkOffset = DoCreditsNameChunk(scrollText1, creditsWidth, chunkOffset);
+            chunkOffset = DoCreditsNameChunk(scrollText2, creditsWidth, chunkOffset);
+            chunkOffset = DoCreditsNameChunk(scrollText3, creditsWidth, chunkOffset);
+            chunkOffset = DoCreditsNameChunk(scrollText4, creditsWidth, chunkOffset);
+            chunkOffset = DoCreditsNameChunk(scrollText5, creditsWidth, chunkOffset);
+
             m_TotalCreditsHeight = chunkOffset - m_TextYPos;
             GUI.EndGroup();
 
@@ -108,9 +112,28 @@ namespace AirCoder.TJ.Core.Editor
 
             GUILayout.BeginHorizontal();
             GUILayout.Label(s_MonoLogo);
-            GUILayout.Label("Scripting powered by AirCoder.\n\n(c) 2021 Novell, Inc.", "MiniLabel", GUILayout.Width(210));
-            GUILayout.Label(s_AgeiaLogo);
-            GUILayout.Label("Physics powered by PhysX.\n\n(c) 2019 NVIDIA Corporation.", "MiniLabel", GUILayout.Width(200));
+            
+            //GUILayout.BeginVertical();
+            GUILayout.BeginVertical();
+            var linkStyle = new GUIStyle(GUI.skin.label);
+            linkStyle.normal.textColor = Color.cyan;
+            linkStyle.focused.textColor = Color.yellow;
+            linkStyle.active.textColor = Color.gray;
+            if (GUILayout.Button($"- Github:         {githubLink}", linkStyle))
+            {
+                Application.OpenURL(githubLink);
+            }
+            if (GUILayout.Button($"- LinkedIn:     {linkedInLink}", linkStyle))
+            {
+                Application.OpenURL(githubLink);
+            }
+            if (GUILayout.Button($"- Facebook:   {facebookLink}", linkStyle))
+            {
+                Application.OpenURL(githubLink);
+            }
+            GUILayout.Label($"- Email :          sassi.3atef@gmail.com");
+          
+            GUILayout.EndVertical();
             GUILayout.EndHorizontal();
             GUILayout.FlexibleSpace();
             GUILayout.BeginHorizontal();
@@ -172,7 +195,7 @@ namespace AirCoder.TJ.Core.Editor
             GUI.Label(creditsNamesRect, nameChunk, EditorStyles.wordWrappedLabel);
             return creditsNamesRect.yMax;
         }
-
+        
         private int m_InternalCodeProgress;
         private void ListenForSecretCodes()
         {
