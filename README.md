@@ -1,6 +1,20 @@
 # TJS Tween Job System
 Optimized animation engine for Unity v1.0
 
+---
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/628d98c6-0224-48a2-b3e3-321b5f48e681" alt="InspectMe Logo" width="100"></td>
+    <td>
+      🛠️ Boost your Unity workflows with <a href="https://divinitycodes.de/">InspectMe</a>! Our tool simplifies debugging with an intuitive tree view. Check it out! 👉 
+      <a href="https://assetstore.unity.com/packages/tools/utilities/inspectme-lite-advanced-debugging-code-clarity-283366">InspectMe Lite</a> - 
+      <a href="https://assetstore.unity.com/packages/tools/utilities/inspectme-pro-advanced-debugging-code-clarity-256329">InspectMe Pro</a>
+    </td>
+  </tr>
+</table>
+
+---
 
 **1- Shortcuts**
 Shortcut extensions that directly extend common objects like this:
@@ -76,3 +90,16 @@ sprite.TweenColor(Color.red, 1f)
       .OnUpdate(OnUpdateAnimation)
       .Play();
 ```
+
+---
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/628d98c6-0224-48a2-b3e3-321b5f48e681" alt="InspectMe Logo" width="100"></td>
+    <td>
+      🛠️ Boost your Unity workflows with <a href="https://divinitycodes.de/">InspectMe</a>! Our tool simplifies debugging with an intuitive tree view. Check it out! 👉 
+      <a href="https://assetstore.unity.com/packages/tools/utilities/inspectme-lite-advanced-debugging-code-clarity-283366">InspectMe Lite</a> - 
+      <a href="https://assetstore.unity.com/packages/tools/utilities/inspectme-pro-advanced-debugging-code-clarity-256329">InspectMe Pro</a>
+    </td>
+  </tr>
+</table>
